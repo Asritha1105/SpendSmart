@@ -1,0 +1,13 @@
+{
+  "name": "spendsmart",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "install:frontend": "npm install --prefix frontend",
+    "build": "npm install --prefix frontend && npm run build --prefix frontend",
+    "dev": "npm run dev --prefix frontend"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
